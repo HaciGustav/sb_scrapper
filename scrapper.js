@@ -1,7 +1,7 @@
 const { Cluster } = require("puppeteer-cluster");
 const nodemailer = require("nodemailer");
 const fs = require("fs");
-const { compare, sendMail } = require("./functions");
+const { compare, sendMail } = require("./others");
 
 const main = async () => {
   const apartments = [];

@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "scrapper.js", "use": "@vercel/node" }
+    ],
+    "functions": {
+      "cron": {
+        "schedule": "*/15 * * * *", 
+        "maxDuration": 300 
+      }
+    }
+  }
